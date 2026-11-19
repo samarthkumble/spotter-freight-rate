@@ -63,4 +63,4 @@ python score.py --predictions validation_predictions.csv --december-predictions 
 - **Negative weights** (292 train, 145 validation) are sign errors and are made positive. Missing weights are left to LightGBM.
 - **market_index is not used.** It improves two older folds but makes the most recent fold much worse (1.44% to 3.79% MAPE); its link to rates is not stable over time.
 - **Coordinates instead of city names.** 8 cities in validation.csv never appear in training, so the model locates them by latitude/longitude.
-- **December chart.** The fixed inputs have no quote_signal, so the training median is used. The only date feature is day of week, so the chart shows a weekly cycle (Thursday highest, Sunday lowest, about 1.2% apart).
+- **December chart.** The fixed inputs have no quote_signal, so the training median is used. The only date feature is day of week, so the chart shows a weekly cycle (Thursday highest, Sunday lowest, about 1.4% apart).
