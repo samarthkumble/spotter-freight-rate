@@ -1,0 +1,4 @@
+repeat,hidden_cities,test_rows,MAPE_%
+1,"Albuquerque, Amarillo, Austin, Dallas, Detroit, Kansas City, Lubbock, Providence",1718,1.51
+2,"Dayton, Lexington, Little Rock, Lubbock, Montgomery, Nashville, Richmond, St. Louis",2378,1.53
+3,"Albuquerque, Bakersfield, Buffalo, El Paso, Little Rock, Providence, Richmond, Tulsa",2237,1.48
